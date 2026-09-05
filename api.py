@@ -21,7 +21,7 @@ from typing import AsyncGenerator
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse, FileResponse
+from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse, FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
@@ -48,6 +48,7 @@ FIXTURE_FILES = {
 }
 AUDIT_PATH = str(BASE_DIR / "audit_trail.json")
 FRONTEND_PATH = BASE_DIR / "frontend/index.html"
+FAVICON_PATH = BASE_DIR / "frontend/favicon.svg"
 _MEMORY_AUDIT_DATA: Optional[dict] = None
 
 
@@ -59,6 +60,14 @@ async def serve_dashboard():
     if not FRONTEND_PATH.exists():
         raise HTTPException(status_code=404, detail="frontend/index.html not found")
     return HTMLResponse(content=FRONTEND_PATH.read_text(encoding="utf-8"))
+
+
+@app.get("/favicon.ico", include_in_schema=False)
+@app.get("/favicon.svg", include_in_schema=False)
+async def serve_favicon():
+    if FAVICON_PATH.exists():
+        return FileResponse(FAVICON_PATH, media_type="image/svg+xml")
+    return Response(content="", status_code=204)
 
 
 # ──────────────────────────────────────────────
