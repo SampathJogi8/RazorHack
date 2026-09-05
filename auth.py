@@ -102,7 +102,10 @@ PRESEEDED_USERS = [
 
 class AuthManager:
     def __init__(self):
-        USERS_FILE.parent.mkdir(parents=True, exist_ok=True)
+        try:
+            USERS_FILE.parent.mkdir(parents=True, exist_ok=True)
+        except OSError:
+            pass
         self.users: dict[str, UserRecord] = {}
         self.sessions: dict[str, str] = {}  # token -> user_id
         self._load_data()

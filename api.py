@@ -38,14 +38,17 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+BASE_DIR = Path(__file__).resolve().parent
+
 FIXTURE_FILES = {
-    "payment_failure":      "fixtures/failed_payments_batch.json",
-    "checkout_abandonment": "fixtures/checkout_abandonments.json",
-    "subscription_failure": "fixtures/subscription_failures.json",
-    "receivables_overdue":  "fixtures/overdue_invoices.json",
+    "payment_failure":      str(BASE_DIR / "fixtures/failed_payments_batch.json"),
+    "checkout_abandonment": str(BASE_DIR / "fixtures/checkout_abandonments.json"),
+    "subscription_failure": str(BASE_DIR / "fixtures/subscription_failures.json"),
+    "receivables_overdue":  str(BASE_DIR / "fixtures/overdue_invoices.json"),
 }
-AUDIT_PATH = "audit_trail.json"
-FRONTEND_PATH = Path("frontend/index.html")
+AUDIT_PATH = str(BASE_DIR / "audit_trail.json")
+FRONTEND_PATH = BASE_DIR / "frontend/index.html"
+_MEMORY_AUDIT_DATA: Optional[dict] = None
 
 
 # ──────────────────────────────────────────────
@@ -135,6 +138,11 @@ async def get_fixtures(scenario: str):
 # ──────────────────────────────────────────────
 @app.get("/api/audit")
 async def get_audit():
+    global _MEMORY_AUDIT_DATA
+    if _MEMORY_AUDIT_DATA:
+        data = dict(_MEMORY_AUDIT_DATA)
+        data["available"] = True
+        return data
     if not os.path.exists(AUDIT_PATH):
         return {"available": False, "records": [], "total_records": 0}
     with open(AUDIT_PATH, encoding="utf-8") as f:
@@ -148,10 +156,18 @@ async def get_audit():
 # ──────────────────────────────────────────────
 @app.get("/api/metrics")
 async def get_metrics():
-    if not os.path.exists(AUDIT_PATH):
+    global _MEMORY_AUDIT_DATA
+    data = None
+    if _MEMORY_AUDIT_DATA:
+        data = _MEMORY_AUDIT_DATA
+    elif os.path.exists(AUDIT_PATH):
+        try:
+            with open(AUDIT_PATH, encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception:
+            pass
+    if not data:
         return {"available": False}
-    with open(AUDIT_PATH, encoding="utf-8") as f:
-        data = json.load(f)
     records = data.get("records", [])
     if not records:
         return {"available": False}
@@ -340,8 +356,13 @@ async def stream_batch():
             "razorpay_mode": rzp.mode,
             "records": audit_records,
         }
-        with open(AUDIT_PATH, "w", encoding="utf-8") as f:
-            json.dump(audit_data, f, indent=2, ensure_ascii=False)
+        global _MEMORY_AUDIT_DATA
+        _MEMORY_AUDIT_DATA = audit_data
+        try:
+            with open(AUDIT_PATH, "w", encoding="utf-8") as f:
+                json.dump(audit_data, f, indent=2, ensure_ascii=False)
+        except OSError:
+            pass  # Vercel / Serverless read-only filesystem fallback
 
         # Compute final metrics
         total_at_risk = sum(r["amount_at_risk_inr"] for r in audit_records)
