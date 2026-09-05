@@ -1,11 +1,11 @@
-# RazorRevive — AI Revenue Recovery Agent
+# RecoverAI — Autonomous AI Revenue Recovery Agent
 ## Razorpay AI Buildathon · Track 03: AI Revenue Recovery
 
 ---
 
 ### 🎯 What it solves
 
-Revenue loss rarely happens in one place. RazorRevive is a **multi-scenario autonomous recovery agent** that detects revenue at risk across four failure modes and executes bounded, compliant recovery workflows:
+Revenue loss rarely happens in one place. RecoverAI is a **multi-scenario autonomous recovery agent** that detects revenue at risk across four failure modes and executes bounded, compliant recovery workflows:
 
 | Scenario | Revenue Leak | Recovery |
 |---|---|---|
@@ -251,7 +251,7 @@ Action Distribution: Silent Retry | Payment Links | Cart Reminders |
 
 ### 🏆 Evaluation Criteria
 
-| Criterion | RazorRevive Response |
+| Criterion | RecoverAI Response |
 |---|---|
 | **Don't just identify** | Executes recovery workflows — payment links, retry schedules, payment plans, customer messages |
 | **Measured money recovered** | Batch reports ₹ recoverable target per scenario + overall recovery rate % |

@@ -1,5 +1,5 @@
 """
-api.py  —  RazorRevive FastAPI Backend
+api.py  —  RecoverAI FastAPI Backend
 ---------------------------------------
 Serves the premium SPA dashboard and all REST + SSE endpoints.
 
@@ -30,7 +30,7 @@ load_dotenv()
 # ──────────────────────────────────────────────
 # App setup
 # ──────────────────────────────────────────────
-app = FastAPI(title="RazorRevive API", version="2.0.0")
+app = FastAPI(title="RecoverAI API", version="2.0.0")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -643,5 +643,5 @@ async def run_csv_sample(req: dict):
 if __name__ == "__main__":
     import uvicorn
     port = int(os.getenv("PORT", 8080))
-    print(f"\n🚀 RazorRevive Premium UI starting on http://localhost:{port}\n")
+    print(f"\n🚀 RecoverAI Premium UI starting on http://localhost:{port}\n")
     uvicorn.run("api:app", host="0.0.0.0", port=port, reload=True)

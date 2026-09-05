@@ -320,7 +320,7 @@ def diagnose_receivable(event: dict, payment_link: str) -> ChaserPlan:
         inv_id=invoice_id[-6:],  # Last 6 chars for brevity
         amount=f"{amount_inr:,.0f}",
         days=days_overdue,
-        company="RazorRevive",
+        company="RecoverAI",
         link=payment_link,
     )
 
