@@ -325,9 +325,16 @@ Failed Payment Event:
   payment_link: {payment_link_url}
 """
 
-        # Support both OpenAI and OpenAI-compatible endpoints
-        base_url = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
-        model = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+        # Support both OpenAI and OpenAI-compatible endpoints (Auto-detect OpenRouter)
+        base_url = os.getenv("OPENAI_BASE_URL", "")
+        if not base_url:
+            if api_key and api_key.startswith("sk-or-"):
+                base_url = "https://openrouter.ai/api/v1"
+            else:
+                base_url = "https://api.openai.com/v1"
+        model = os.getenv("OPENAI_MODEL", "")
+        if not model:
+            model = "openai/gpt-4o-mini" if "openrouter" in base_url.lower() else "gpt-4o-mini"
 
         headers = {
             "Authorization": f"Bearer {api_key}",
