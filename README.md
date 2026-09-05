@@ -2,10 +2,12 @@
 ## Razorpay AI Buildathon · Track 03: AI Revenue Recovery
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-razorhack.vercel.app-00DC82?style=for-the-badge&logo=vercel&logoColor=white)](https://razorhack.vercel.app/)
+[![Pitch Video](https://img.shields.io/badge/Pitch%20Video-Watch%20Demo-FF0000?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1EYrODjPGorEiyrtSt9_D1dxBjyGBQDiX/view?usp=drivesdk)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SampathJogi8/RazorHack)
 [![Tests Passing](https://img.shields.io/badge/Tests-21%2F21%20Passed-brightgreen?style=for-the-badge)](https://github.com/SampathJogi8/RazorHack)
 
 > 🌐 **Live Cloud Deployment:** **[https://razorhack.vercel.app/](https://razorhack.vercel.app/)**  
+> 📹 **5-Min Pitch Video:** **[Watch on Google Drive](https://drive.google.com/file/d/1EYrODjPGorEiyrtSt9_D1dxBjyGBQDiX/view?usp=drivesdk)**  
 > 🔑 **1-Click Demo Login:** `ops@razorrevive.io` &nbsp;|&nbsp; Password: `recovery123`
 
 ---
