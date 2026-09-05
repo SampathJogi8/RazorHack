@@ -191,7 +191,7 @@ st.markdown(
     """
 <div class="rzp-header">
   <h1>⚡ RazorRevive</h1>
-  <p>Autonomous Revenue Recovery Agent &nbsp;·&nbsp; Razorpay AI Buildathon 2024 – Track 03: AI Revenue Recovery</p>
+  <p>Autonomous Revenue Recovery Agent &nbsp;·&nbsp; Razorpay AI Buildathon – Track 03: AI Revenue Recovery</p>
 </div>
 """,
     unsafe_allow_html=True,

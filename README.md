@@ -1,5 +1,5 @@
 # RazorRevive — AI Revenue Recovery Agent
-## Razorpay AI Buildathon 2024 · Track 03: AI Revenue Recovery
+## Razorpay AI Buildathon · Track 03: AI Revenue Recovery
 
 ---
 
@@ -214,4 +214,4 @@ Action Distribution: Silent Retry | Payment Links | Cart Reminders |
 
 ---
 
-*Built with ❤️ for Razorpay AI Buildathon 2024.*
+*Built with ❤️ for Razorpay AI Buildathon.*
