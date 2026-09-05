@@ -1,7 +1,7 @@
 """
 streamlit_app.py
 ----------------
-RecoverAI — Full Multi-Scenario Streamlit Dashboard
+RazorRevive — Full Multi-Scenario Streamlit Dashboard
 
 Tabs:
   1. 📊 Revenue Overview    — KPI cards + revenue waterfall + scenario distribution
@@ -33,7 +33,7 @@ load_dotenv()
 # Page config
 # ──────────────────────────────────────────────
 st.set_page_config(
-    page_title="RecoverAI — AI Revenue Recovery",
+    page_title="RazorRevive — AI Revenue Recovery",
     page_icon="⚡",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -190,7 +190,7 @@ def compute_metrics(records: list[dict]) -> dict:
 st.markdown(
     """
 <div class="rzp-header">
-  <h1>⚡ RecoverAI</h1>
+  <h1>⚡ RazorRevive</h1>
   <p>Autonomous Revenue Recovery Agent &nbsp;·&nbsp; Razorpay AI Buildathon – Track 03: AI Revenue Recovery</p>
 </div>
 """,

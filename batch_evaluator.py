@@ -1,7 +1,7 @@
 """
 batch_evaluator.py
 ------------------
-Multi-scenario batch processor for RecoverAI.
+Multi-scenario batch processor for RazorRevive.
 
 Loads all fixture files, routes events through the unified orchestrator,
 saves a structured audit_trail.json, and prints a rich terminal summary
@@ -154,7 +154,7 @@ def print_header():
     console.print()
     console.print(
         Panel.fit(
-            "[bold magenta]⚡ RecoverAI — Multi-Scenario Batch Evaluation[/bold magenta]\n"
+            "[bold magenta]⚡ RazorRevive — Multi-Scenario Batch Evaluation[/bold magenta]\n"
             "[dim]AI Revenue Recovery Agent  ·  Razorpay Buildathon Track 03[/dim]",
             border_style="magenta",
         )

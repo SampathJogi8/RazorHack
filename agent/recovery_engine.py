@@ -266,7 +266,7 @@ def _rule_based_diagnosis(payment_entity: dict, payment_link_url: str) -> Recove
 # LLM Diagnosis (OpenAI-compatible)
 # ──────────────────────────────────────────────
 
-_LLM_SYSTEM_PROMPT = """You are RecoverAI, an expert payment recovery agent for Razorpay.
+_LLM_SYSTEM_PROMPT = """You are RazorRevive, an expert payment recovery agent for Razorpay.
 You receive a failed payment event and must output a structured JSON recovery plan.
 
 Your ONLY output must be valid JSON matching this schema:
@@ -340,7 +340,7 @@ Failed Payment Event:
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
             "HTTP-Referer": "http://localhost:8080",
-            "X-Title": "RecoverAI Agent",
+            "X-Title": "RazorRevive Agent",
         }
 
         response = requests.post(

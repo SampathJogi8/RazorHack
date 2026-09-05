@@ -1,7 +1,7 @@
 """
 generate_fixtures.py
 ---------------------
-Generates all revenue-risk fixture files for the RecoverAI demo.
+Generates all revenue-risk fixture files for the RazorRevive demo.
 
 Output files:
   fixtures/failed_payments_batch.json   — 25 payment.failed webhook events
@@ -350,7 +350,7 @@ def main():
     total_value = 0.0
     total_events = 0
 
-    print("\n🚀 RecoverAI — Fixture Generator")
+    print("\n🚀 RazorRevive — Fixture Generator")
     print("=" * 50)
 
     for path, generator_fn, event_label in generators:

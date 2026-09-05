@@ -1,7 +1,7 @@
 """
 agent/csv_ingestor.py
 ---------------------
-Universal CSV Ingestion & Analysis Engine for RecoverAI.
+Universal CSV Ingestion & Analysis Engine for RazorRevive.
 Parses merchant CSV exports (Razorpay, Zoho Books, Tally, Shopify, Stripe, Chargebee,
 as well as Kaggle customer churn/abandonment datasets and bank statements with header banners).
 Normalizes them into structured revenue-risk events and executes deterministic guardrails

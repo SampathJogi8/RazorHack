@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-csv_runner.py — Command-line interface to test real CSV files in RecoverAI.
+csv_runner.py — Command-line interface to test real CSV files in RazorRevive.
 Usage:
     python3 csv_runner.py sample_csvs/razorpay_failed_payments.csv
     python3 csv_runner.py path/to/your/export.csv --llm
@@ -18,7 +18,7 @@ from agent.csv_ingestor import process_csv_content
 
 
 def main():
-    parser = argparse.ArgumentParser(description="RecoverAI Real CSV Ingestion Runner")
+    parser = argparse.ArgumentParser(description="RazorRevive Real CSV Ingestion Runner")
     parser.add_argument("file", help="Path to the CSV file to analyze")
     parser.add_argument("--scenario", choices=["payment_failure", "receivables_overdue", "checkout_abandonment", "subscription_failure"], default=None, help="Force scenario (default: auto-detect)")
     parser.add_argument("--llm", action="store_true", default=True, help="Enable OpenRouter / OpenAI LLM diagnosis")

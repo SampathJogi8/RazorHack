@@ -1,4 +1,4 @@
-# RecoverAI — Autonomous AI Revenue Recovery Agent
+# RazorRevive — Autonomous AI Revenue Recovery Agent
 ## Razorpay AI Buildathon · Track 03: AI Revenue Recovery
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-razorhack.vercel.app-00DC82?style=for-the-badge&logo=vercel&logoColor=white)](https://razorhack.vercel.app/)
@@ -6,13 +6,13 @@
 [![Tests Passing](https://img.shields.io/badge/Tests-21%2F21%20Passed-brightgreen?style=for-the-badge)](https://github.com/SampathJogi8/RazorHack)
 
 > 🌐 **Live Cloud Deployment:** **[https://razorhack.vercel.app/](https://razorhack.vercel.app/)**  
-> 🔑 **1-Click Demo Login:** `ops@recoverai.io` &nbsp;|&nbsp; Password: `recovery123`
+> 🔑 **1-Click Demo Login:** `ops@razorrevive.io` &nbsp;|&nbsp; Password: `recovery123`
 
 ---
 
 ### 🎯 What it solves
 
-Revenue loss rarely happens in one place. RecoverAI is a **multi-scenario autonomous recovery agent** that detects revenue at risk across four failure modes and executes bounded, compliant recovery workflows:
+Revenue loss rarely happens in one place. RazorRevive is a **multi-scenario autonomous recovery agent** that detects revenue at risk across four failure modes and executes bounded, compliant recovery workflows:
 
 | Scenario | Revenue Leak | Recovery |
 |---|---|---|
@@ -176,7 +176,7 @@ Process real merchant exports without manual data cleanup:
 ---
 
 ### 🌐 Live Hosted Application
-The RecoverAI dashboard is deployed live on Vercel:
+The RazorRevive dashboard is deployed live on Vercel:
 👉 **[https://razorhack.vercel.app/](https://razorhack.vercel.app/)**
 
 ---
@@ -195,7 +195,7 @@ python3 api.py
 #### 🔑 Pre-Seeded Demo Accounts (Instant 1-Click Login):
 | Role | Email | Password | Access Level |
 |---|---|---|---|
-| **Revenue Recovery Lead** | `ops@recoverai.io` | `recovery123` | Full Merchant Ops & Recovery Actions |
+| **Revenue Recovery Lead** | `ops@razorrevive.io` *(or `ops@recoverai.io`)* | `recovery123` | Full Merchant Ops & Recovery Actions |
 | **Chief Financial Officer** | `cfo@razorpay.com` | `admin123` | Executive Analytics & High-Value Approvals |
 | **Risk & Compliance Manager** | `risk@finance.com` | `risk123` | Circuit Breakers & Audit Trail Inspection |
 
@@ -264,7 +264,7 @@ Action Distribution: Silent Retry | Payment Links | Cart Reminders |
 
 ### 🏆 Evaluation Criteria
 
-| Criterion | RecoverAI Response |
+| Criterion | RazorRevive Response |
 |---|---|
 | **Don't just identify** | Executes recovery workflows — payment links, retry schedules, payment plans, customer messages |
 | **Measured money recovered** | Batch reports ₹ recoverable target per scenario + overall recovery rate % |

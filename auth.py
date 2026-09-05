@@ -1,5 +1,5 @@
 """
-auth.py — Authentication & User Management for RecoverAI
+auth.py — Authentication & User Management for RazorRevive
 ---------------------------------------------------------
 Handles user registration, authentication, password hashing with PBKDF2-HMAC,
 session management, and pre-seeded demo accounts for quick evaluator access.
@@ -75,6 +75,14 @@ def _verify_password(password: str, salt: str, password_hash: str) -> bool:
 PRESEEDED_USERS = [
     {
         "id": "usr_ops_01",
+        "name": "Priya Sharma",
+        "email": "ops@razorrevive.io",
+        "company": "Razorpay Merchant Ops",
+        "role": "Revenue Recovery Lead",
+        "password": "recovery123",
+    },
+    {
+        "id": "usr_ops_01_legacy",
         "name": "Priya Sharma",
         "email": "ops@recoverai.io",
         "company": "Razorpay Merchant Ops",

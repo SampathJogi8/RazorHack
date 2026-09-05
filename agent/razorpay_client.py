@@ -127,10 +127,10 @@ class RazorpayRecoveryClient:
             "reminder_enable": True,
             "notes": {
                 "original_payment_id": payment_id,
-                "recovery_source": "recoverai",
+                "recovery_source": "razorrevive",
             },
             "callback_url": os.getenv(
-                "RAZORPAY_CALLBACK_URL", "https://recoverai.io/callback"
+                "RAZORPAY_CALLBACK_URL", "https://razorrevive.io/callback"
             ),
             "callback_method": "get",
             "expire_by": expire_by,
