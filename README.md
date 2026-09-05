@@ -1,6 +1,13 @@
 # RecoverAI — Autonomous AI Revenue Recovery Agent
 ## Razorpay AI Buildathon · Track 03: AI Revenue Recovery
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-razorhack.vercel.app-00DC82?style=for-the-badge&logo=vercel&logoColor=white)](https://razorhack.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SampathJogi8/RazorHack)
+[![Tests Passing](https://img.shields.io/badge/Tests-21%2F21%20Passed-brightgreen?style=for-the-badge)](https://github.com/SampathJogi8/RazorHack)
+
+> 🌐 **Live Cloud Deployment:** **[https://razorhack.vercel.app/](https://razorhack.vercel.app/)**  
+> 🔑 **1-Click Demo Login:** `ops@recoverai.io` &nbsp;|&nbsp; Password: `recovery123`
+
 ---
 
 ### 🎯 What it solves
@@ -168,7 +175,13 @@ Process real merchant exports without manual data cleanup:
 
 ---
 
-### ⚡ Quickstart: Run in 2 Commands
+### 🌐 Live Hosted Application
+The RecoverAI dashboard is deployed live on Vercel:
+👉 **[https://razorhack.vercel.app/](https://razorhack.vercel.app/)**
+
+---
+
+### ⚡ Quickstart: Run Locally in 2 Commands
 
 ```bash
 # 1. Install dependencies
