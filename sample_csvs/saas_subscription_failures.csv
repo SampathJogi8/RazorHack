@@ -1,0 +1,7 @@
+subscription_id,customer_name,email,phone,plan_name,amount_inr,billing_cycle,retry_count,decline_code,card_brand,mandate_revoked
+sub_saas_011,Naveen Patnaik,naveen.p@designorbit.io,+919711002233,Figma Team Enterprise Annual,14999.00,annual,1,insufficient_funds,Mastercard,false
+sub_saas_012,Anuradha Roy,anuradha.roy@finops.com,+919722113344,AWS Cloud Optimizer Pro,2990.00,monthly,2,card_expired,Visa,false
+sub_saas_013,Siddharth Joshi,siddharth@joshitech.com,+919733224455,Notion AI Workspace Tier,7500.00,quarterly,3,mandate_revoked,Rupay,true
+sub_saas_014,Leena Mathew,leena@mathewconsulting.in,+919744335566,HubSpot Marketing Hub Starter,9200.00,monthly,1,bank_gateway_timeout,Visa,false
+sub_saas_015,Karthik Subramanian,karthik.s@datalytics.in,+919755446677,Snowflake ETL Automation Pipeline,48000.00,monthly,2,insufficient_funds,Mastercard,false
+sub_saas_016,Rupa Banerjee,rupa.b@hrpulse.org,+919766557788,Slack Enterprise Grid (25 seats),18750.00,quarterly,4,max_retries_exceeded,Visa,false

@@ -1,0 +1,317 @@
+[
+  {
+    "event_type": "subscription.failed",
+    "subscription_id": "sub_276f56f402c0",
+    "customer": {
+      "name": "Arjun Sharma",
+      "email": "arjun.sharma17@yahoo.in",
+      "phone": "+917295456419"
+    },
+    "plan": {
+      "name": "Pro Monthly",
+      "amount_inr": 999,
+      "interval": "monthly"
+    },
+    "failure_reason": "INSUFFICIENT_FUNDS",
+    "dunning_attempt": 0,
+    "cancelled": false,
+    "mandate_revoked": false,
+    "subscription_status": "past_due",
+    "grace_period_ends_at": 1788858185,
+    "failed_at": 1788541385
+  },
+  {
+    "event_type": "subscription.failed",
+    "subscription_id": "sub_5d1d3b04cf4e",
+    "customer": {
+      "name": "Priya Mehta",
+      "email": "priya.mehta48@yahoo.in",
+      "phone": "+917677517496"
+    },
+    "plan": {
+      "name": "Business Annual",
+      "amount_inr": 9999,
+      "interval": "yearly"
+    },
+    "failure_reason": "CARD_EXPIRED",
+    "dunning_attempt": 1,
+    "cancelled": false,
+    "mandate_revoked": false,
+    "subscription_status": "past_due",
+    "grace_period_ends_at": 1788858185,
+    "failed_at": 1788494585
+  },
+  {
+    "event_type": "subscription.failed",
+    "subscription_id": "sub_13e6b93c59cd",
+    "customer": {
+      "name": "Rohan Verma",
+      "email": "rohan.verma70@yahoo.in",
+      "phone": "+919627135980"
+    },
+    "plan": {
+      "name": "Starter Monthly",
+      "amount_inr": 499,
+      "interval": "monthly"
+    },
+    "failure_reason": "CARD_DECLINED",
+    "dunning_attempt": 2,
+    "cancelled": false,
+    "mandate_revoked": false,
+    "subscription_status": "past_due",
+    "grace_period_ends_at": 1788858185,
+    "failed_at": 1788447785
+  },
+  {
+    "event_type": "subscription.failed",
+    "subscription_id": "sub_5db2d8523e8b",
+    "customer": {
+      "name": "Sneha Iyer",
+      "email": "sneha.iyer68@gmail.com",
+      "phone": "+919868450609"
+    },
+    "plan": {
+      "name": "Enterprise Plan",
+      "amount_inr": 4999,
+      "interval": "monthly"
+    },
+    "failure_reason": "BANK_AUTHENTICATION_FAILED",
+    "dunning_attempt": 3,
+    "cancelled": false,
+    "mandate_revoked": false,
+    "subscription_status": "past_due",
+    "grace_period_ends_at": 1788858185,
+    "failed_at": 1788469385
+  },
+  {
+    "event_type": "subscription.failed",
+    "subscription_id": "sub_a53b97eb0e9c",
+    "customer": {
+      "name": "Karan Patel",
+      "email": "karan.patel39@gmail.com",
+      "phone": "+917576775951"
+    },
+    "plan": {
+      "name": "Team Plan",
+      "amount_inr": 2499,
+      "interval": "monthly"
+    },
+    "failure_reason": "GATEWAY_ERROR",
+    "dunning_attempt": 4,
+    "cancelled": false,
+    "mandate_revoked": false,
+    "subscription_status": "past_due",
+    "grace_period_ends_at": 1788858185,
+    "failed_at": 1788537785
+  },
+  {
+    "event_type": "subscription.failed",
+    "subscription_id": "sub_790479690de9",
+    "customer": {
+      "name": "Anjali Singh",
+      "email": "anjali.singh15@gmail.com",
+      "phone": "+919376077463"
+    },
+    "plan": {
+      "name": "Pro Monthly",
+      "amount_inr": 999,
+      "interval": "monthly"
+    },
+    "failure_reason": "NETWORK_TIMEOUT",
+    "dunning_attempt": 0,
+    "cancelled": false,
+    "mandate_revoked": false,
+    "subscription_status": "past_due",
+    "grace_period_ends_at": 1788858185,
+    "failed_at": 1788562985
+  },
+  {
+    "event_type": "subscription.failed",
+    "subscription_id": "sub_423f0a2c01d7",
+    "customer": {
+      "name": "Vikram Nair",
+      "email": "vikram.nair35@yahoo.in",
+      "phone": "+919597724331"
+    },
+    "plan": {
+      "name": "Business Annual",
+      "amount_inr": 9999,
+      "interval": "yearly"
+    },
+    "failure_reason": "INSUFFICIENT_FUNDS",
+    "dunning_attempt": 1,
+    "cancelled": false,
+    "mandate_revoked": false,
+    "subscription_status": "past_due",
+    "grace_period_ends_at": 1788858185,
+    "failed_at": 1788548585
+  },
+  {
+    "event_type": "subscription.failed",
+    "subscription_id": "sub_07450572f4ac",
+    "customer": {
+      "name": "Deepa Krishnan",
+      "email": "deepa.krishnan92@yahoo.in",
+      "phone": "+917874443787"
+    },
+    "plan": {
+      "name": "Starter Monthly",
+      "amount_inr": 499,
+      "interval": "monthly"
+    },
+    "failure_reason": "CARD_EXPIRED",
+    "dunning_attempt": 2,
+    "cancelled": false,
+    "mandate_revoked": false,
+    "subscription_status": "past_due",
+    "grace_period_ends_at": 1788858185,
+    "failed_at": 1788440585
+  },
+  {
+    "event_type": "subscription.failed",
+    "subscription_id": "sub_7215d4a42580",
+    "customer": {
+      "name": "Aakash Gupta",
+      "email": "aakash.gupta82@yahoo.in",
+      "phone": "+919170715377"
+    },
+    "plan": {
+      "name": "Enterprise Plan",
+      "amount_inr": 4999,
+      "interval": "monthly"
+    },
+    "failure_reason": "CARD_DECLINED",
+    "dunning_attempt": 3,
+    "cancelled": false,
+    "mandate_revoked": false,
+    "subscription_status": "past_due",
+    "grace_period_ends_at": 1788858185,
+    "failed_at": 1788483785
+  },
+  {
+    "event_type": "subscription.failed",
+    "subscription_id": "sub_110f34345894",
+    "customer": {
+      "name": "Ritu Joshi",
+      "email": "ritu.joshi33@gmail.com",
+      "phone": "+917396418889"
+    },
+    "plan": {
+      "name": "Team Plan",
+      "amount_inr": 2499,
+      "interval": "monthly"
+    },
+    "failure_reason": "BANK_AUTHENTICATION_FAILED",
+    "dunning_attempt": 4,
+    "cancelled": false,
+    "mandate_revoked": false,
+    "subscription_status": "past_due",
+    "grace_period_ends_at": 1788858185,
+    "failed_at": 1788451385
+  },
+  {
+    "event_type": "subscription.failed",
+    "subscription_id": "sub_4c2d76dc7986",
+    "customer": {
+      "name": "Manish Agarwal",
+      "email": "manish.agarwal55@yahoo.in",
+      "phone": "+917189351213"
+    },
+    "plan": {
+      "name": "Pro Monthly",
+      "amount_inr": 999,
+      "interval": "monthly"
+    },
+    "failure_reason": "GATEWAY_ERROR",
+    "dunning_attempt": 0,
+    "cancelled": false,
+    "mandate_revoked": false,
+    "subscription_status": "past_due",
+    "grace_period_ends_at": 1788858185,
+    "failed_at": 1788595385
+  },
+  {
+    "event_type": "subscription.failed",
+    "subscription_id": "sub_16cdfe82f893",
+    "customer": {
+      "name": "Pooja Rao",
+      "email": "pooja.rao43@outlook.com",
+      "phone": "+919736381108"
+    },
+    "plan": {
+      "name": "Business Annual",
+      "amount_inr": 9999,
+      "interval": "yearly"
+    },
+    "failure_reason": "NETWORK_TIMEOUT",
+    "dunning_attempt": 1,
+    "cancelled": false,
+    "mandate_revoked": false,
+    "subscription_status": "past_due",
+    "grace_period_ends_at": 1788858185,
+    "failed_at": 1788537785
+  },
+  {
+    "event_type": "subscription.failed",
+    "subscription_id": "sub_cb84bd80fcaf",
+    "customer": {
+      "name": "Suresh Kumar",
+      "email": "suresh.kumar21@icloud.com",
+      "phone": "+919369449369"
+    },
+    "plan": {
+      "name": "Starter Monthly",
+      "amount_inr": 499,
+      "interval": "monthly"
+    },
+    "failure_reason": "INSUFFICIENT_FUNDS",
+    "dunning_attempt": 2,
+    "cancelled": false,
+    "mandate_revoked": false,
+    "subscription_status": "past_due",
+    "grace_period_ends_at": 1788858185,
+    "failed_at": 1788433385
+  },
+  {
+    "event_type": "subscription.failed",
+    "subscription_id": "sub_2e0c3af58bf1",
+    "customer": {
+      "name": "Neha Bhat",
+      "email": "neha.bhat55@gmail.com",
+      "phone": "+917480494664"
+    },
+    "plan": {
+      "name": "Enterprise Plan",
+      "amount_inr": 4999,
+      "interval": "monthly"
+    },
+    "failure_reason": "CARD_EXPIRED",
+    "dunning_attempt": 3,
+    "cancelled": false,
+    "mandate_revoked": true,
+    "subscription_status": "past_due",
+    "grace_period_ends_at": 1788858185,
+    "failed_at": 1788580985
+  },
+  {
+    "event_type": "subscription.failed",
+    "subscription_id": "sub_f2915ff14033",
+    "customer": {
+      "name": "Rahul Tiwari",
+      "email": "rahul.tiwari89@outlook.com",
+      "phone": "+919343292475"
+    },
+    "plan": {
+      "name": "Team Plan",
+      "amount_inr": 2499,
+      "interval": "monthly"
+    },
+    "failure_reason": "CARD_DECLINED",
+    "dunning_attempt": 4,
+    "cancelled": true,
+    "mandate_revoked": false,
+    "subscription_status": "past_due",
+    "grace_period_ends_at": 1788858185,
+    "failed_at": 1788588185
+  }
+]

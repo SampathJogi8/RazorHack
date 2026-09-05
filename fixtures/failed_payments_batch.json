@@ -1,0 +1,1052 @@
+[
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_009c925aafbe41",
+          "entity": "payment",
+          "amount": 49900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_754e0adae97b4f",
+          "method": "card",
+          "amount_refunded": 0,
+          "description": "Annual SaaS Subscription",
+          "bank": "HDFC",
+          "email": "arjun.sharma18@gmail.com",
+          "contact": "+919906402157",
+          "notes": {
+            "customer_name": "Arjun Sharma",
+            "customer_phone": "+919342331444",
+            "attempt_count": 3,
+            "dispute_raised": false,
+            "last_contacted_timestamp": 1788206585,
+            "item_description": "Annual SaaS Subscription"
+          },
+          "error_code": "GATEWAY_ERROR",
+          "error_description": "Payment processing failed due to a gateway communication error",
+          "error_source": "gateway",
+          "error_step": "payment_authorization",
+          "error_reason": "gateway_error",
+          "created_at": 1788228185
+        }
+      }
+    },
+    "created_at": 1788228185
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_369d3f3afcc542",
+          "entity": "payment",
+          "amount": 129900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_af7838017a844a",
+          "method": "card",
+          "amount_refunded": 0,
+          "description": "E-commerce Order #ORD-2024",
+          "bank": null,
+          "email": "priya.mehta12@outlook.com",
+          "contact": "+917999270936",
+          "notes": {
+            "customer_name": "Priya Mehta",
+            "customer_phone": "+919170484433",
+            "attempt_count": 0,
+            "dispute_raised": false,
+            "last_contacted_timestamp": null,
+            "item_description": "E-commerce Order #ORD-2024"
+          },
+          "error_code": "GATEWAY_ERROR",
+          "error_description": "Payment processing failed due to a gateway communication error",
+          "error_source": "gateway",
+          "error_step": "payment_authorization",
+          "error_reason": "gateway_error",
+          "created_at": 1788076985
+        }
+      }
+    },
+    "created_at": 1788076985
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_ae2d3bc7bac049",
+          "entity": "payment",
+          "amount": 349900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_9ec528fcff6b49",
+          "method": "upi",
+          "amount_refunded": 0,
+          "description": "Hotel Booking – Goa",
+          "bank": "HDFC",
+          "email": "rohan.verma90@icloud.com",
+          "contact": "+917946785248",
+          "notes": {
+            "customer_name": "Rohan Verma",
+            "customer_phone": "+918929338154",
+            "attempt_count": 2,
+            "dispute_raised": false,
+            "last_contacted_timestamp": 1788152585,
+            "item_description": "Hotel Booking – Goa"
+          },
+          "error_code": "GATEWAY_ERROR",
+          "error_description": "Payment processing failed due to a gateway communication error",
+          "error_source": "gateway",
+          "error_step": "payment_authorization",
+          "error_reason": "gateway_error",
+          "created_at": 1788260585
+        }
+      }
+    },
+    "created_at": 1788260585
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_dce1ed57a5e142",
+          "entity": "payment",
+          "amount": 599900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_d819da6dcf184c",
+          "method": "upi",
+          "amount_refunded": 0,
+          "description": "Flight Ticket – DEL to BOM",
+          "bank": "SBI",
+          "email": "sneha.iyer36@outlook.com",
+          "contact": "+917924765563",
+          "notes": {
+            "customer_name": "Sneha Iyer",
+            "customer_phone": "+918445662585",
+            "attempt_count": 1,
+            "dispute_raised": true,
+            "last_contacted_timestamp": 1788537785,
+            "item_description": "Flight Ticket – DEL to BOM"
+          },
+          "error_code": "GATEWAY_ERROR",
+          "error_description": "Payment processing failed due to a gateway communication error",
+          "error_source": "gateway",
+          "error_step": "payment_authorization",
+          "error_reason": "gateway_error",
+          "created_at": 1788580985
+        }
+      }
+    },
+    "created_at": 1788580985
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_6c977a6ad63f43",
+          "entity": "payment",
+          "amount": 79900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_61e49e57bff24f",
+          "method": "card",
+          "amount_refunded": 0,
+          "description": "Premium Gym Membership",
+          "bank": "HDFC",
+          "email": "karan.patel45@yahoo.in",
+          "contact": "+917186618211",
+          "notes": {
+            "customer_name": "Karan Patel",
+            "customer_phone": "+918973214822",
+            "attempt_count": 1,
+            "dispute_raised": false,
+            "last_contacted_timestamp": 1787896985,
+            "item_description": "Premium Gym Membership"
+          },
+          "error_code": "GATEWAY_ERROR",
+          "error_description": "Payment processing failed due to a gateway communication error",
+          "error_source": "gateway",
+          "error_step": "payment_authorization",
+          "error_reason": "gateway_error",
+          "created_at": 1788069785
+        }
+      }
+    },
+    "created_at": 1788069785
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_d59b6d92ea644a",
+          "entity": "payment",
+          "amount": 249900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_f028fcef221a49",
+          "method": "upi",
+          "amount_refunded": 0,
+          "description": "Online Course – ML Bootcamp",
+          "bank": "HDFC",
+          "email": "anjali.singh38@yahoo.in",
+          "contact": "+919479708607",
+          "notes": {
+            "customer_name": "Anjali Singh",
+            "customer_phone": "+917825873196",
+            "attempt_count": 3,
+            "dispute_raised": false,
+            "last_contacted_timestamp": 1787983385,
+            "item_description": "Online Course – ML Bootcamp"
+          },
+          "error_code": "GATEWAY_ERROR",
+          "error_description": "Payment processing failed due to a gateway communication error",
+          "error_source": "gateway",
+          "error_step": "payment_authorization",
+          "error_reason": "gateway_error",
+          "created_at": 1788073385
+        }
+      }
+    },
+    "created_at": 1788073385
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_71ebbf7a085f4c",
+          "entity": "payment",
+          "amount": 99900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_d7fe07c7d51349",
+          "method": "card",
+          "amount_refunded": 0,
+          "description": "OTT Subscription Renewal",
+          "bank": "HDFC",
+          "email": "vikram.nair30@gmail.com",
+          "contact": "+918632629719",
+          "notes": {
+            "customer_name": "Vikram Nair",
+            "customer_phone": "+918193887545",
+            "attempt_count": 0,
+            "dispute_raised": false,
+            "last_contacted_timestamp": null,
+            "item_description": "OTT Subscription Renewal"
+          },
+          "error_code": "GATEWAY_ERROR",
+          "error_description": "Payment processing failed due to a gateway communication error",
+          "error_source": "gateway",
+          "error_step": "payment_authorization",
+          "error_reason": "gateway_error",
+          "created_at": 1788307385
+        }
+      }
+    },
+    "created_at": 1788307385
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_05289beca40a43",
+          "entity": "payment",
+          "amount": 189900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_f58955ecb85a4b",
+          "method": "card",
+          "amount_refunded": 0,
+          "description": "Insurance Premium Q3",
+          "bank": "SBI",
+          "email": "deepa.krishnan27@yahoo.in",
+          "contact": "+919935814872",
+          "notes": {
+            "customer_name": "Deepa Krishnan",
+            "customer_phone": "+919783290795",
+            "attempt_count": 2,
+            "dispute_raised": false,
+            "last_contacted_timestamp": 1788343385,
+            "item_description": "Insurance Premium Q3"
+          },
+          "error_code": "BAD_REQUEST_PAYMENT_TIMED_OUT",
+          "error_description": "Payment session timed out before user could complete authentication",
+          "error_source": "customer",
+          "error_step": "payment_authentication",
+          "error_reason": "payment_timed_out",
+          "created_at": 1788386585
+        }
+      }
+    },
+    "created_at": 1788386585
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_8210f07e3da247",
+          "entity": "payment",
+          "amount": 1499900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_1a798b13bab344",
+          "method": "card",
+          "amount_refunded": 0,
+          "description": "EdTech Module Pack",
+          "bank": null,
+          "email": "aakash.gupta21@icloud.com",
+          "contact": "+918629748727",
+          "notes": {
+            "customer_name": "Aakash Gupta",
+            "customer_phone": "+918159417075",
+            "attempt_count": 0,
+            "dispute_raised": false,
+            "last_contacted_timestamp": null,
+            "item_description": "EdTech Module Pack"
+          },
+          "error_code": "BAD_REQUEST_PAYMENT_TIMED_OUT",
+          "error_description": "Payment session timed out before user could complete authentication",
+          "error_source": "customer",
+          "error_step": "payment_authentication",
+          "error_reason": "payment_timed_out",
+          "created_at": 1788364985
+        }
+      }
+    },
+    "created_at": 1788364985
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_0b851f92029d4d",
+          "entity": "payment",
+          "amount": 299900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_f7813f57ecb848",
+          "method": "upi",
+          "amount_refunded": 0,
+          "description": "Software License Renewal",
+          "bank": "ICICI",
+          "email": "ritu.joshi5@yahoo.in",
+          "contact": "+918722989659",
+          "notes": {
+            "customer_name": "Ritu Joshi",
+            "customer_phone": "+918149938334",
+            "attempt_count": 0,
+            "dispute_raised": true,
+            "last_contacted_timestamp": null,
+            "item_description": "Software License Renewal"
+          },
+          "error_code": "BAD_REQUEST_PAYMENT_TIMED_OUT",
+          "error_description": "Payment session timed out before user could complete authentication",
+          "error_source": "customer",
+          "error_step": "payment_authentication",
+          "error_reason": "payment_timed_out",
+          "created_at": 1788163385
+        }
+      }
+    },
+    "created_at": 1788163385
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_7086107033e648",
+          "entity": "payment",
+          "amount": 4999900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_9dbef95b6de343",
+          "method": "card",
+          "amount_refunded": 0,
+          "description": "Freelance Invoice #INV-871",
+          "bank": "ICICI",
+          "email": "manish.agarwal64@icloud.com",
+          "contact": "+919761027762",
+          "notes": {
+            "customer_name": "Manish Agarwal",
+            "customer_phone": "+918970753705",
+            "attempt_count": 3,
+            "dispute_raised": false,
+            "last_contacted_timestamp": 1788037385,
+            "item_description": "Freelance Invoice #INV-871"
+          },
+          "error_code": "BAD_REQUEST_PAYMENT_TIMED_OUT",
+          "error_description": "Payment session timed out before user could complete authentication",
+          "error_source": "customer",
+          "error_step": "payment_authentication",
+          "error_reason": "payment_timed_out",
+          "created_at": 1788145385
+        }
+      }
+    },
+    "created_at": 1788145385
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_f6037e443e1346",
+          "entity": "payment",
+          "amount": 149900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_432240d2b85347",
+          "method": "upi",
+          "amount_refunded": 0,
+          "description": "Marketplace Product Bundle",
+          "bank": "SBI",
+          "email": "pooja.rao75@icloud.com",
+          "contact": "+919506254832",
+          "notes": {
+            "customer_name": "Pooja Rao",
+            "customer_phone": "+918715412119",
+            "attempt_count": 1,
+            "dispute_raised": false,
+            "last_contacted_timestamp": 1788292985,
+            "item_description": "Marketplace Product Bundle"
+          },
+          "error_code": "BAD_REQUEST_PAYMENT_TIMED_OUT",
+          "error_description": "Payment session timed out before user could complete authentication",
+          "error_source": "customer",
+          "error_step": "payment_authentication",
+          "error_reason": "payment_timed_out",
+          "created_at": 1788400985
+        }
+      }
+    },
+    "created_at": 1788400985
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_acac07981ba549",
+          "entity": "payment",
+          "amount": 19900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_fcc011488a4c45",
+          "method": "netbanking",
+          "amount_refunded": 0,
+          "description": "Event Registration – TechConf 2024",
+          "bank": "ICICI",
+          "email": "suresh.kumar12@gmail.com",
+          "contact": "+917470939445",
+          "notes": {
+            "customer_name": "Suresh Kumar",
+            "customer_phone": "+917656448479",
+            "attempt_count": 2,
+            "dispute_raised": false,
+            "last_contacted_timestamp": 1788296585,
+            "item_description": "Event Registration – TechConf 2024"
+          },
+          "error_code": "BAD_REQUEST_PAYMENT_DECLINED_BY_BANK",
+          "error_description": "Payment declined by the issuing bank",
+          "error_source": "bank",
+          "error_step": "payment_authorization",
+          "error_reason": "payment_declined_by_bank",
+          "created_at": 1788368585
+        }
+      }
+    },
+    "created_at": 1788368585
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_cc2ec9375ca549",
+          "entity": "payment",
+          "amount": 999900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_5f111b98755f48",
+          "method": "upi",
+          "amount_refunded": 0,
+          "description": "Home Loan EMI Prepayment",
+          "bank": "AXIS",
+          "email": "neha.bhat60@yahoo.in",
+          "contact": "+919376087131",
+          "notes": {
+            "customer_name": "Neha Bhat",
+            "customer_phone": "+917049310608",
+            "attempt_count": 1,
+            "dispute_raised": false,
+            "last_contacted_timestamp": 1788379385,
+            "item_description": "Home Loan EMI Prepayment"
+          },
+          "error_code": "BAD_REQUEST_PAYMENT_DECLINED_BY_BANK",
+          "error_description": "Payment declined by the issuing bank",
+          "error_source": "bank",
+          "error_step": "payment_authorization",
+          "error_reason": "payment_declined_by_bank",
+          "created_at": 1788469385
+        }
+      }
+    },
+    "created_at": 1788469385
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_765055dc77fe48",
+          "entity": "payment",
+          "amount": 74900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_393d0bdf594741",
+          "method": "card",
+          "amount_refunded": 0,
+          "description": "Restaurant Pre-order",
+          "bank": null,
+          "email": "rahul.tiwari38@icloud.com",
+          "contact": "+917679282378",
+          "notes": {
+            "customer_name": "Rahul Tiwari",
+            "customer_phone": "+918948728483",
+            "attempt_count": 1,
+            "dispute_raised": false,
+            "last_contacted_timestamp": 1788177785,
+            "item_description": "Restaurant Pre-order"
+          },
+          "error_code": "BAD_REQUEST_PAYMENT_DECLINED_BY_BANK",
+          "error_description": "Payment declined by the issuing bank",
+          "error_source": "bank",
+          "error_step": "payment_authorization",
+          "error_reason": "payment_declined_by_bank",
+          "created_at": 1788181385
+        }
+      }
+    },
+    "created_at": 1788181385
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_f00221a04a9441",
+          "entity": "payment",
+          "amount": 399900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_4debbcf8ca374b",
+          "method": "card",
+          "amount_refunded": 0,
+          "description": "Fashion Apparel Order",
+          "bank": "SBI",
+          "email": "kavita.desai81@yahoo.in",
+          "contact": "+919744267175",
+          "notes": {
+            "customer_name": "Kavita Desai",
+            "customer_phone": "+919180395476",
+            "attempt_count": 3,
+            "dispute_raised": false,
+            "last_contacted_timestamp": 1788364985,
+            "item_description": "Fashion Apparel Order"
+          },
+          "error_code": "BAD_REQUEST_PAYMENT_DECLINED_BY_BANK",
+          "error_description": "Payment declined by the issuing bank",
+          "error_source": "bank",
+          "error_step": "payment_authorization",
+          "error_reason": "payment_declined_by_bank",
+          "created_at": 1788368585
+        }
+      }
+    },
+    "created_at": 1788368585
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_5a85ee4512f74a",
+          "entity": "payment",
+          "amount": 89900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_ef7726c9a51f42",
+          "method": "upi",
+          "amount_refunded": 0,
+          "description": "Digital Marketing Package",
+          "bank": "ICICI",
+          "email": "amit.saxena70@gmail.com",
+          "contact": "+919572447412",
+          "notes": {
+            "customer_name": "Amit Saxena",
+            "customer_phone": "+918392239675",
+            "attempt_count": 0,
+            "dispute_raised": false,
+            "last_contacted_timestamp": null,
+            "item_description": "Digital Marketing Package"
+          },
+          "error_code": "BAD_REQUEST_PAYMENT_DECLINED_BY_BANK",
+          "error_description": "Payment declined by the issuing bank",
+          "error_source": "bank",
+          "error_step": "payment_authorization",
+          "error_reason": "payment_declined_by_bank",
+          "created_at": 1788386585
+        }
+      }
+    },
+    "created_at": 1788386585
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_afacff96180846",
+          "entity": "payment",
+          "amount": 199900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_7bb945ac0c6d43",
+          "method": "card",
+          "amount_refunded": 0,
+          "description": "Cloud Storage Plan – 1TB",
+          "bank": "HDFC",
+          "email": "shweta.pandey8@outlook.com",
+          "contact": "+919436779490",
+          "notes": {
+            "customer_name": "Shweta Pandey",
+            "customer_phone": "+917338258951",
+            "attempt_count": 1,
+            "dispute_raised": false,
+            "last_contacted_timestamp": 1788451385,
+            "item_description": "Cloud Storage Plan – 1TB"
+          },
+          "error_code": "FRAUD_SUSPECTED",
+          "error_description": "Transaction flagged by fraud risk engine — high-risk velocity pattern detected",
+          "error_source": "internal",
+          "error_step": "payment_authorization",
+          "error_reason": "fraud_suspected",
+          "created_at": 1788472985
+        }
+      }
+    },
+    "created_at": 1788472985
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_d733eb7b12c942",
+          "entity": "payment",
+          "amount": 29900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_d290bdce510546",
+          "method": "card",
+          "amount_refunded": 0,
+          "description": "Gaming Top-up Bundle",
+          "bank": "AXIS",
+          "email": "nitin.chaudhary17@icloud.com",
+          "contact": "+919361388464",
+          "notes": {
+            "customer_name": "Nitin Chaudhary",
+            "customer_phone": "+917709214891",
+            "attempt_count": 0,
+            "dispute_raised": true,
+            "last_contacted_timestamp": null,
+            "item_description": "Gaming Top-up Bundle"
+          },
+          "error_code": "FRAUD_SUSPECTED",
+          "error_description": "Transaction flagged by fraud risk engine — high-risk velocity pattern detected",
+          "error_source": "internal",
+          "error_step": "payment_authorization",
+          "error_reason": "fraud_suspected",
+          "created_at": 1788451385
+        }
+      }
+    },
+    "created_at": 1788451385
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_9728a7aef6bb42",
+          "entity": "payment",
+          "amount": 549900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_e88484389bc148",
+          "method": "netbanking",
+          "amount_refunded": 0,
+          "description": "Healthcare Consultation Booking",
+          "bank": null,
+          "email": "divya.menon94@outlook.com",
+          "contact": "+918338811290",
+          "notes": {
+            "customer_name": "Divya Menon",
+            "customer_phone": "+918713658874",
+            "attempt_count": 2,
+            "dispute_raised": false,
+            "last_contacted_timestamp": 1787886185,
+            "item_description": "Healthcare Consultation Booking"
+          },
+          "error_code": "FRAUD_SUSPECTED",
+          "error_description": "Transaction flagged by fraud risk engine — high-risk velocity pattern detected",
+          "error_source": "internal",
+          "error_step": "payment_authorization",
+          "error_reason": "fraud_suspected",
+          "created_at": 1788058985
+        }
+      }
+    },
+    "created_at": 1788058985
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_46f76251a25542",
+          "entity": "payment",
+          "amount": 2999900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_01b80425469443",
+          "method": "netbanking",
+          "amount_refunded": 0,
+          "description": "Furniture EMI Installment",
+          "bank": "AXIS",
+          "email": "sanjay.pillai29@gmail.com",
+          "contact": "+918452066459",
+          "notes": {
+            "customer_name": "Sanjay Pillai",
+            "customer_phone": "+917090341465",
+            "attempt_count": 0,
+            "dispute_raised": false,
+            "last_contacted_timestamp": null,
+            "item_description": "Furniture EMI Installment"
+          },
+          "error_code": "FRAUD_SUSPECTED",
+          "error_description": "Transaction flagged by fraud risk engine — high-risk velocity pattern detected",
+          "error_source": "internal",
+          "error_step": "payment_authorization",
+          "error_reason": "fraud_suspected",
+          "created_at": 1787983385
+        }
+      }
+    },
+    "created_at": 1787983385
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_e1fb75e4c8ca49",
+          "entity": "payment",
+          "amount": 59900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_5470c50e68c542",
+          "method": "upi",
+          "amount_refunded": 0,
+          "description": "Mutual Fund SIP Payment",
+          "bank": null,
+          "email": "meera.nambiar1@gmail.com",
+          "contact": "+919710566582",
+          "notes": {
+            "customer_name": "Meera Nambiar",
+            "customer_phone": "+917252860896",
+            "attempt_count": 0,
+            "dispute_raised": false,
+            "last_contacted_timestamp": null,
+            "item_description": "Mutual Fund SIP Payment"
+          },
+          "error_code": "CARD_EXPIRED",
+          "error_description": "Card has expired. Customer must update their payment method.",
+          "error_source": "customer",
+          "error_step": "payment_validation",
+          "error_reason": "card_expired",
+          "created_at": 1788274985
+        }
+      }
+    },
+    "created_at": 1788274985
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_2779d5f541e949",
+          "entity": "payment",
+          "amount": 8999900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_8cf123dde1024e",
+          "method": "upi",
+          "amount_refunded": 0,
+          "description": "Wedding Venue Advance",
+          "bank": "HDFC",
+          "email": "rajesh.mishra66@outlook.com",
+          "contact": "+918196050747",
+          "notes": {
+            "customer_name": "Rajesh Mishra",
+            "customer_phone": "+919873237671",
+            "attempt_count": 0,
+            "dispute_raised": false,
+            "last_contacted_timestamp": null,
+            "item_description": "Wedding Venue Advance"
+          },
+          "error_code": "CARD_EXPIRED",
+          "error_description": "Card has expired. Customer must update their payment method.",
+          "error_source": "customer",
+          "error_step": "payment_validation",
+          "error_reason": "card_expired",
+          "created_at": 1788562985
+        }
+      }
+    },
+    "created_at": 1788562985
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_c40f363b897f48",
+          "entity": "payment",
+          "amount": 499900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_2376ad509d534d",
+          "method": "card",
+          "amount_refunded": 0,
+          "description": "EV Booking Deposit",
+          "bank": "ICICI",
+          "email": "aditi.banerjee61@icloud.com",
+          "contact": "+917817804383",
+          "notes": {
+            "customer_name": "Aditi Banerjee",
+            "customer_phone": "+917405126228",
+            "attempt_count": 1,
+            "dispute_raised": false,
+            "last_contacted_timestamp": 1788321785,
+            "item_description": "EV Booking Deposit"
+          },
+          "error_code": "CARD_EXPIRED",
+          "error_description": "Card has expired. Customer must update their payment method.",
+          "error_source": "customer",
+          "error_step": "payment_validation",
+          "error_reason": "card_expired",
+          "created_at": 1788343385
+        }
+      }
+    },
+    "created_at": 1788343385
+  },
+  {
+    "entity": "event",
+    "account_id": "acc_razorrevive_demo",
+    "event": "payment.failed",
+    "event_type": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_5ccc114e640340",
+          "entity": "payment",
+          "amount": 174900,
+          "currency": "INR",
+          "status": "failed",
+          "order_id": "order_f0841a8312804c",
+          "method": "card",
+          "amount_refunded": 0,
+          "description": "Home Renovation Services",
+          "bank": "AXIS",
+          "email": "vivek.dubey94@gmail.com",
+          "contact": "+919892078691",
+          "notes": {
+            "customer_name": "Vivek Dubey",
+            "customer_phone": "+919806569935",
+            "attempt_count": 1,
+            "dispute_raised": false,
+            "last_contacted_timestamp": 1788048185,
+            "item_description": "Home Renovation Services"
+          },
+          "error_code": "CARD_EXPIRED",
+          "error_description": "Card has expired. Customer must update their payment method.",
+          "error_source": "customer",
+          "error_step": "payment_validation",
+          "error_reason": "card_expired",
+          "created_at": 1788120185
+        }
+      }
+    },
+    "created_at": 1788120185
+  }
+]

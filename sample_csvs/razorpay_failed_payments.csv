@@ -1,0 +1,11 @@
+payment_id,amount,currency,status,method,bank,error_code,error_description,customer_name,email,contact,item_description,attempt_count,dispute_raised
+pay_NZ98a87b1c,2499.00,INR,failed,card,HDFC,BAD_REQUEST_PAYMENT_TIMED_OUT,Payment was timed out,Rahul Sengupta,rahul.sengupta@gmail.com,+919820112345,Growth Marketing SaaS Plan,1,false
+pay_NZ98a87b2d,45000.00,INR,failed,upi,ICICI,GATEWAY_ERROR,Bank server did not respond in time,Deepak Nair,deepak.nair@nairconsulting.in,+919845012345,Custom Enterprise API Integration,0,false
+pay_NZ98a87b3e,1499.00,INR,failed,card,SBI,CARD_EXPIRED,Card has passed expiry date,Ananya Chatterjee,ananya.c@yahoo.co.in,+919811223344,Developer Annual Pass,2,false
+pay_NZ98a87b4f,78000.00,INR,failed,netbanking,AXIS,FRAUD_SUSPECTED,Payment blocked by issuer fraud detection system,Vikramaditya Rao,v.rao99@rediffmail.com,+919988776655,High-Volume Bulk SMS Gateway Credits,1,false
+pay_NZ98a87b5a,12500.00,INR,failed,card,KOTAK,BAD_REQUEST_PAYMENT_TIMED_OUT,OTP entry session expired,Sneha Deshmukh,sneha.deshmukh@gmail.com,+919765432109,UX Design Masterclass & License,2,false
+pay_NZ98a87b6b,8990.00,INR,failed,upi,YES,INSUFFICIENT_FUNDS,Customer bank account has insufficient balance,Tarun Khurana,tarun.k@khuranatech.com,+919123456780,Cloud Hosting Premium Tier,1,false
+pay_NZ98a87b7c,3200.00,INR,failed,card,HDFC,BAD_REQUEST_PAYMENT_PIN_INCORRECT,Incorrect MPIN entered 3 times,Meera Nambiar,meera.nambiar@gmail.com,+919345678901,Team Productivity Pack (5 seats),1,false
+pay_NZ98a87b8d,18500.00,INR,failed,card,ICICI,PAYMENT_CANCELLED_BY_USER,Customer cancelled authentication flow on 3DS page,Gaurav Bansal,gaurav.b@fintechlabs.io,+919876501234,Security Audit & Penetration Testing Report,1,true
+pay_NZ98a87b9e,6499.00,INR,failed,upi,HDFC,GATEWAY_ERROR,UPI switch timeout at NPCI,Pooja Hegde,pooja.hegde@techsol.com,+919900112233,SEO Analytics Suite Yearly,0,false
+pay_NZ98a87b0f,120000.00,INR,failed,netbanking,HDFC,INSUFFICIENT_FUNDS,Transaction limit exceeded on corporate account,Rishi Malhotra,rishi@malhotralogistics.in,+919822334455,Q3 Freight Logistics Software Subscription,1,false

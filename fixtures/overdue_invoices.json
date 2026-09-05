@@ -1,0 +1,202 @@
+[
+  {
+    "event_type": "invoice.overdue",
+    "invoice_id": "INV-2024-1000",
+    "customer": {
+      "name": "Kavita Desai",
+      "company": "Zephyr Logistics Pvt Ltd",
+      "tier": "SMB",
+      "email": "kavita.desai75@outlook.com",
+      "phone": "+918845919895"
+    },
+    "amount_inr": 15000,
+    "currency": "INR",
+    "due_date": 1787302985,
+    "days_overdue": 15,
+    "in_legal_proceedings": false,
+    "disputed": false,
+    "previous_reminders": 1,
+    "last_chased_at": 1787994185,
+    "payment_history": "good"
+  },
+  {
+    "event_type": "invoice.overdue",
+    "invoice_id": "INV-2024-1001",
+    "customer": {
+      "name": "Amit Saxena",
+      "company": "BlueSky Analytics",
+      "tier": "ENTERPRISE",
+      "email": "amit.saxena47@gmail.com",
+      "phone": "+918536778950"
+    },
+    "amount_inr": 85000,
+    "currency": "INR",
+    "due_date": 1784710985,
+    "days_overdue": 45,
+    "in_legal_proceedings": false,
+    "disputed": false,
+    "previous_reminders": 1,
+    "last_chased_at": 1787994185,
+    "payment_history": "good"
+  },
+  {
+    "event_type": "invoice.overdue",
+    "invoice_id": "INV-2024-1002",
+    "customer": {
+      "name": "Shweta Pandey",
+      "company": "GreenTech Solutions",
+      "tier": "STARTUP",
+      "email": "shweta.pandey46@icloud.com",
+      "phone": "+919665720874"
+    },
+    "amount_inr": 4500,
+    "currency": "INR",
+    "due_date": 1782118985,
+    "days_overdue": 75,
+    "in_legal_proceedings": false,
+    "disputed": false,
+    "previous_reminders": 1,
+    "last_chased_at": null,
+    "payment_history": "good"
+  },
+  {
+    "event_type": "invoice.overdue",
+    "invoice_id": "INV-2024-1003",
+    "customer": {
+      "name": "Nitin Chaudhary",
+      "company": "InnovateCo Systems",
+      "tier": "ENTERPRISE",
+      "email": "nitin.chaudhary23@icloud.com",
+      "phone": "+917106456634"
+    },
+    "amount_inr": 250000,
+    "currency": "INR",
+    "due_date": 1777366985,
+    "days_overdue": 130,
+    "in_legal_proceedings": true,
+    "disputed": false,
+    "previous_reminders": 1,
+    "last_chased_at": 1788339785,
+    "payment_history": "good"
+  },
+  {
+    "event_type": "invoice.overdue",
+    "invoice_id": "INV-2024-1004",
+    "customer": {
+      "name": "Divya Menon",
+      "company": "TrustBridge Fintech",
+      "tier": "SMB",
+      "email": "divya.menon86@outlook.com",
+      "phone": "+918145921803"
+    },
+    "amount_inr": 32000,
+    "currency": "INR",
+    "due_date": 1786179785,
+    "days_overdue": 28,
+    "in_legal_proceedings": false,
+    "disputed": false,
+    "previous_reminders": 1,
+    "last_chased_at": 1787389385,
+    "payment_history": "good"
+  },
+  {
+    "event_type": "invoice.overdue",
+    "invoice_id": "INV-2024-1005",
+    "customer": {
+      "name": "Sanjay Pillai",
+      "company": "NovaSoft Enterprises",
+      "tier": "STARTUP",
+      "email": "sanjay.pillai5@icloud.com",
+      "phone": "+917955345537"
+    },
+    "amount_inr": 12000,
+    "currency": "INR",
+    "due_date": 1780650185,
+    "days_overdue": 92,
+    "in_legal_proceedings": false,
+    "disputed": false,
+    "previous_reminders": 1,
+    "last_chased_at": 1787389385,
+    "payment_history": "spotty"
+  },
+  {
+    "event_type": "invoice.overdue",
+    "invoice_id": "INV-2024-1006",
+    "customer": {
+      "name": "Meera Nambiar",
+      "company": "PeakPath Consulting",
+      "tier": "SMB",
+      "email": "meera.nambiar40@outlook.com",
+      "phone": "+917957449367"
+    },
+    "amount_inr": 700000,
+    "currency": "INR",
+    "due_date": 1783414985,
+    "days_overdue": 60,
+    "in_legal_proceedings": false,
+    "disputed": false,
+    "previous_reminders": 0,
+    "last_chased_at": 1787994185,
+    "payment_history": "good"
+  },
+  {
+    "event_type": "invoice.overdue",
+    "invoice_id": "INV-2024-1007",
+    "customer": {
+      "name": "Rajesh Mishra",
+      "company": "RapidRetail Ltd",
+      "tier": "STARTUP",
+      "email": "rajesh.mishra43@yahoo.in",
+      "phone": "+917298159856"
+    },
+    "amount_inr": 6800,
+    "currency": "INR",
+    "due_date": 1787907785,
+    "days_overdue": 8,
+    "in_legal_proceedings": false,
+    "disputed": false,
+    "previous_reminders": 2,
+    "last_chased_at": 1787389385,
+    "payment_history": "good"
+  },
+  {
+    "event_type": "invoice.overdue",
+    "invoice_id": "INV-2024-1008",
+    "customer": {
+      "name": "Aditi Banerjee",
+      "company": "CloudNine SaaS",
+      "tier": "SMB",
+      "email": "aditi.banerjee52@yahoo.in",
+      "phone": "+917118543408"
+    },
+    "amount_inr": 45000,
+    "currency": "INR",
+    "due_date": 1779094985,
+    "days_overdue": 110,
+    "in_legal_proceedings": false,
+    "disputed": true,
+    "previous_reminders": 0,
+    "last_chased_at": 1788426185,
+    "payment_history": "good"
+  },
+  {
+    "event_type": "invoice.overdue",
+    "invoice_id": "INV-2024-1009",
+    "customer": {
+      "name": "Vivek Dubey",
+      "company": "BrightEdge Media",
+      "tier": "ENTERPRISE",
+      "email": "vivek.dubey75@yahoo.in",
+      "phone": "+917164313410"
+    },
+    "amount_inr": 180000,
+    "currency": "INR",
+    "due_date": 1785315785,
+    "days_overdue": 38,
+    "in_legal_proceedings": false,
+    "disputed": false,
+    "previous_reminders": 0,
+    "last_chased_at": 1788339785,
+    "payment_history": "poor"
+  }
+]

@@ -1,0 +1,412 @@
+[
+  {
+    "event_type": "checkout.abandoned",
+    "session_id": "sess_98de6a42b284",
+    "customer": {
+      "name": "Arjun Sharma",
+      "email": "arjun.sharma52@yahoo.in",
+      "phone": "+917469306919"
+    },
+    "cart": {
+      "items": [
+        {
+          "name": "Running Shoes – Nike Air",
+          "qty": 1,
+          "price": 4999
+        }
+      ],
+      "total_amount_inr": 4999,
+      "currency": "INR",
+      "item_count": 1
+    },
+    "funnel_stage": "CART",
+    "abandoned_at": 1788591785,
+    "reminder_count": 0,
+    "opted_out_marketing": false,
+    "last_reminded_at": null,
+    "device": "mobile"
+  },
+  {
+    "event_type": "checkout.abandoned",
+    "session_id": "sess_a61fc9347daf",
+    "customer": {
+      "name": "Priya Mehta",
+      "email": "priya.mehta69@icloud.com",
+      "phone": "+917602078388"
+    },
+    "cart": {
+      "items": [
+        {
+          "name": "Wireless Earbuds",
+          "qty": 1,
+          "price": 2499
+        },
+        {
+          "name": "Phone Case",
+          "qty": 1,
+          "price": 299
+        }
+      ],
+      "total_amount_inr": 2798,
+      "currency": "INR",
+      "item_count": 2
+    },
+    "funnel_stage": "ADDRESS",
+    "abandoned_at": 1788577385,
+    "reminder_count": 0,
+    "opted_out_marketing": false,
+    "last_reminded_at": null,
+    "device": "tablet"
+  },
+  {
+    "event_type": "checkout.abandoned",
+    "session_id": "sess_91040e81190b",
+    "customer": {
+      "name": "Rohan Verma",
+      "email": "rohan.verma60@outlook.com",
+      "phone": "+917323775634"
+    },
+    "cart": {
+      "items": [
+        {
+          "name": "Organic Groceries Bundle",
+          "qty": 3,
+          "price": 650
+        }
+      ],
+      "total_amount_inr": 1950,
+      "currency": "INR",
+      "item_count": 3
+    },
+    "funnel_stage": "PAYMENT",
+    "abandoned_at": 1788584585,
+    "reminder_count": 0,
+    "opted_out_marketing": false,
+    "last_reminded_at": null,
+    "device": "tablet"
+  },
+  {
+    "event_type": "checkout.abandoned",
+    "session_id": "sess_1214727395b0",
+    "customer": {
+      "name": "Sneha Iyer",
+      "email": "sneha.iyer7@gmail.com",
+      "phone": "+917400560567"
+    },
+    "cart": {
+      "items": [
+        {
+          "name": "Home Gym Resistance Bands Set",
+          "qty": 1,
+          "price": 1899
+        }
+      ],
+      "total_amount_inr": 1899,
+      "currency": "INR",
+      "item_count": 1
+    },
+    "funnel_stage": "OTP",
+    "abandoned_at": 1788166985,
+    "reminder_count": 0,
+    "opted_out_marketing": false,
+    "last_reminded_at": null,
+    "device": "mobile"
+  },
+  {
+    "event_type": "checkout.abandoned",
+    "session_id": "sess_7bcdbfc8aee9",
+    "customer": {
+      "name": "Karan Patel",
+      "email": "karan.patel62@outlook.com",
+      "phone": "+918722454917"
+    },
+    "cart": {
+      "items": [
+        {
+          "name": "Premium Notebook & Pen Set",
+          "qty": 2,
+          "price": 799
+        }
+      ],
+      "total_amount_inr": 1598,
+      "currency": "INR",
+      "item_count": 2
+    },
+    "funnel_stage": "REVIEW",
+    "abandoned_at": 1788584585,
+    "reminder_count": 1,
+    "opted_out_marketing": true,
+    "last_reminded_at": 1788505385,
+    "device": "mobile"
+  },
+  {
+    "event_type": "checkout.abandoned",
+    "session_id": "sess_a0cdc7b880e1",
+    "customer": {
+      "name": "Anjali Singh",
+      "email": "anjali.singh50@yahoo.in",
+      "phone": "+918954246074"
+    },
+    "cart": {
+      "items": [
+        {
+          "name": "Electric Kettle – 1.5L",
+          "qty": 1,
+          "price": 1299
+        }
+      ],
+      "total_amount_inr": 1299,
+      "currency": "INR",
+      "item_count": 1
+    },
+    "funnel_stage": "CART",
+    "abandoned_at": 1788584585,
+    "reminder_count": 1,
+    "opted_out_marketing": false,
+    "last_reminded_at": 1788591785,
+    "device": "desktop"
+  },
+  {
+    "event_type": "checkout.abandoned",
+    "session_id": "sess_57bd703bd403",
+    "customer": {
+      "name": "Vikram Nair",
+      "email": "vikram.nair85@icloud.com",
+      "phone": "+917664847319"
+    },
+    "cart": {
+      "items": [
+        {
+          "name": "Children's Books Pack (x5)",
+          "qty": 1,
+          "price": 999
+        }
+      ],
+      "total_amount_inr": 999,
+      "currency": "INR",
+      "item_count": 1
+    },
+    "funnel_stage": "ADDRESS",
+    "abandoned_at": 1788426185,
+    "reminder_count": 2,
+    "opted_out_marketing": false,
+    "last_reminded_at": 1788418985,
+    "device": "mobile"
+  },
+  {
+    "event_type": "checkout.abandoned",
+    "session_id": "sess_cf961a2befef",
+    "customer": {
+      "name": "Deepa Krishnan",
+      "email": "deepa.krishnan8@gmail.com",
+      "phone": "+918346922426"
+    },
+    "cart": {
+      "items": [
+        {
+          "name": "Yoga Mat + Accessories",
+          "qty": 1,
+          "price": 1499
+        }
+      ],
+      "total_amount_inr": 1499,
+      "currency": "INR",
+      "item_count": 1
+    },
+    "funnel_stage": "PAYMENT",
+    "abandoned_at": 1788555785,
+    "reminder_count": 0,
+    "opted_out_marketing": false,
+    "last_reminded_at": null,
+    "device": "mobile"
+  },
+  {
+    "event_type": "checkout.abandoned",
+    "session_id": "sess_f4359fe93e30",
+    "customer": {
+      "name": "Aakash Gupta",
+      "email": "aakash.gupta65@outlook.com",
+      "phone": "+917244295904"
+    },
+    "cart": {
+      "items": [
+        {
+          "name": "Party Wear Kurta Set",
+          "qty": 1,
+          "price": 2999
+        }
+      ],
+      "total_amount_inr": 2999,
+      "currency": "INR",
+      "item_count": 1
+    },
+    "funnel_stage": "OTP",
+    "abandoned_at": 1788595385,
+    "reminder_count": 1,
+    "opted_out_marketing": false,
+    "last_reminded_at": 1788505385,
+    "device": "mobile"
+  },
+  {
+    "event_type": "checkout.abandoned",
+    "session_id": "sess_04b6677cc0a7",
+    "customer": {
+      "name": "Ritu Joshi",
+      "email": "ritu.joshi77@gmail.com",
+      "phone": "+919900015820"
+    },
+    "cart": {
+      "items": [
+        {
+          "name": "SmartWatch – Fitness Tracker",
+          "qty": 1,
+          "price": 6999
+        }
+      ],
+      "total_amount_inr": 6999,
+      "currency": "INR",
+      "item_count": 1
+    },
+    "funnel_stage": "REVIEW",
+    "abandoned_at": 1788584585,
+    "reminder_count": 0,
+    "opted_out_marketing": false,
+    "last_reminded_at": null,
+    "device": "mobile"
+  },
+  {
+    "event_type": "checkout.abandoned",
+    "session_id": "sess_e65cb515d32b",
+    "customer": {
+      "name": "Manish Agarwal",
+      "email": "manish.agarwal73@outlook.com",
+      "phone": "+919486438403"
+    },
+    "cart": {
+      "items": [
+        {
+          "name": "Laptop Stand + Keyboard Combo",
+          "qty": 1,
+          "price": 3499
+        }
+      ],
+      "total_amount_inr": 3499,
+      "currency": "INR",
+      "item_count": 1
+    },
+    "funnel_stage": "CART",
+    "abandoned_at": 1788426185,
+    "reminder_count": 0,
+    "opted_out_marketing": false,
+    "last_reminded_at": null,
+    "device": "mobile"
+  },
+  {
+    "event_type": "checkout.abandoned",
+    "session_id": "sess_b88db54c1b34",
+    "customer": {
+      "name": "Pooja Rao",
+      "email": "pooja.rao54@yahoo.in",
+      "phone": "+918119980130"
+    },
+    "cart": {
+      "items": [
+        {
+          "name": "Air Purifier HEPA",
+          "qty": 1,
+          "price": 8999
+        }
+      ],
+      "total_amount_inr": 8999,
+      "currency": "INR",
+      "item_count": 1
+    },
+    "funnel_stage": "ADDRESS",
+    "abandoned_at": 1787994185,
+    "reminder_count": 0,
+    "opted_out_marketing": false,
+    "last_reminded_at": null,
+    "device": "mobile"
+  },
+  {
+    "event_type": "checkout.abandoned",
+    "session_id": "sess_51dd07a31917",
+    "customer": {
+      "name": "Suresh Kumar",
+      "email": "suresh.kumar34@icloud.com",
+      "phone": "+917562117925"
+    },
+    "cart": {
+      "items": [
+        {
+          "name": "Baby Clothes Bundle",
+          "qty": 5,
+          "price": 399
+        }
+      ],
+      "total_amount_inr": 1995,
+      "currency": "INR",
+      "item_count": 5
+    },
+    "funnel_stage": "PAYMENT",
+    "abandoned_at": 1788512585,
+    "reminder_count": 0,
+    "opted_out_marketing": false,
+    "last_reminded_at": null,
+    "device": "desktop"
+  },
+  {
+    "event_type": "checkout.abandoned",
+    "session_id": "sess_e1f64d8f8bb5",
+    "customer": {
+      "name": "Neha Bhat",
+      "email": "neha.bhat97@gmail.com",
+      "phone": "+917040009587"
+    },
+    "cart": {
+      "items": [
+        {
+          "name": "Coffee Maker – Drip",
+          "qty": 1,
+          "price": 4499
+        }
+      ],
+      "total_amount_inr": 4499,
+      "currency": "INR",
+      "item_count": 1
+    },
+    "funnel_stage": "OTP",
+    "abandoned_at": 1788339785,
+    "reminder_count": 0,
+    "opted_out_marketing": false,
+    "last_reminded_at": null,
+    "device": "tablet"
+  },
+  {
+    "event_type": "checkout.abandoned",
+    "session_id": "sess_872adc963f2e",
+    "customer": {
+      "name": "Rahul Tiwari",
+      "email": "rahul.tiwari10@outlook.com",
+      "phone": "+919172758220"
+    },
+    "cart": {
+      "items": [
+        {
+          "name": "Vitamin D + Omega-3 Combo",
+          "qty": 2,
+          "price": 899
+        }
+      ],
+      "total_amount_inr": 1798,
+      "currency": "INR",
+      "item_count": 2
+    },
+    "funnel_stage": "REVIEW",
+    "abandoned_at": 1787994185,
+    "reminder_count": 1,
+    "opted_out_marketing": false,
+    "last_reminded_at": 1788591785,
+    "device": "desktop"
+  }
+]

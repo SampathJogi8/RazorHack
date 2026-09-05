@@ -1,0 +1,9 @@
+invoice_id,customer_name,company,tier,amount_inr,due_date,days_overdue,email,phone,disputed,in_legal_proceedings,previous_reminders,payment_history
+INV-2024-8801,Rajesh Khanna,Khanna & Sons Logistics,ENTERPRISE,145000,2024-08-15,21,rajesh@khannalogistics.com,+919810011223,false,false,1,good
+INV-2024-8802,Shalini Verma,Vertex Media Networks,MID_MARKET,68000,2024-08-25,11,shalini.v@vertexmedia.in,+919820033445,false,false,0,average
+INV-2024-8803,Aakash Mehta,Mehta Industrial Supplies,ENTERPRISE,290000,2024-07-20,47,aakash@mehtasupplies.co.in,+919830055667,true,false,3,poor
+INV-2024-8804,Divya Sundaram,Sundaram HealthTech Solutions,SMB,34000,2024-08-28,8,divya@sundaramhealth.org,+919840077889,false,false,0,good
+INV-2024-8805,Arunachalam S.,Kaveri Automotive Components,ENTERPRISE,520000,2024-06-10,87,arun@kaveriauto.com,+919850099001,false,true,4,poor
+INV-2024-8806,Tanvi Kulkarni,Zenith Cloud Technologies,MID_MARKET,95000,2024-08-18,18,tanvi.k@zenithcloud.io,+919860012345,false,false,1,good
+INV-2024-8807,Manoj Tiwari,Pancham Hospitality Group,SMB,22500,2024-08-22,14,manoj@panchamhotels.in,+919870034567,false,false,1,average
+INV-2024-8808,Kavita Singhal,Singhal Retail Chains,ENTERPRISE,185000,2024-08-10,26,kavita@singhalretail.com,+919880056789,false,false,2,good

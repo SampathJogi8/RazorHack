@@ -1,0 +1,7 @@
+session_id,customer_name,email,phone,total_amount_inr,cart_items_count,items_summary,abandoned_stage,high_intent,coupon_failed
+cart_shpf_001,Pooja Ramachandran,pooja.r@gmail.com,+919911223344,4899.00,2,Wireless Noise Cancelling Headphones + Case,payment_method_selection,true,false
+cart_shpf_002,Karan Joharilal,karan.joharilal@outlook.com,+919922334455,12400.00,4,Mechanical Ergonomic Keyboard + Keycaps Set,shipping_calculator,true,true
+cart_shpf_003,Nisha Agarwal,nisha.agarwal@gmail.com,+919933445566,1299.00,1,Cotton Casual Linen Shirt - Navy (M),otp_entry_abandoned,false,false
+cart_shpf_004,Venkatesh Iyer,venkatesh.iyer@fintech.co,+919944556677,32990.00,1,4K UltraHD Ultrawide Curved Monitor,payment_failure_dropoff,true,false
+cart_shpf_005,Simran Bhatia,simran.b@gmail.com,+919955667788,6750.00,3,Leather Laptop Messenger Bag + Wallet,coupon_failure,true,true
+cart_shpf_006,Harshavardhan Rao,harsha.rao@rediff.com,+919966778899,2200.00,1,Stainless Steel Pour-Over Coffee Maker,browse_cart_view,false,false
