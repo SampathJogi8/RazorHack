@@ -62,6 +62,7 @@ async def serve_dashboard():
 # /api/status
 # ──────────────────────────────────────────────
 @app.get("/api/status")
+@app.get("/api/health")
 async def get_status():
     fixtures_ready = all(os.path.exists(p) for p in FIXTURE_FILES.values())
     audit_ready = os.path.exists(AUDIT_PATH)

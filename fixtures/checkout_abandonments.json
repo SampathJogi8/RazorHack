@@ -1,7 +1,7 @@
 [
   {
     "event_type": "checkout.abandoned",
-    "session_id": "sess_98de6a42b284",
+    "session_id": "sess_94caa7ab08dd",
     "customer": {
       "name": "Arjun Sharma",
       "email": "arjun.sharma52@yahoo.in",
@@ -20,7 +20,7 @@
       "item_count": 1
     },
     "funnel_stage": "CART",
-    "abandoned_at": 1788591785,
+    "abandoned_at": 1788600561,
     "reminder_count": 0,
     "opted_out_marketing": false,
     "last_reminded_at": null,
@@ -28,7 +28,7 @@
   },
   {
     "event_type": "checkout.abandoned",
-    "session_id": "sess_a61fc9347daf",
+    "session_id": "sess_a8a3a7f94bd9",
     "customer": {
       "name": "Priya Mehta",
       "email": "priya.mehta69@icloud.com",
@@ -52,7 +52,7 @@
       "item_count": 2
     },
     "funnel_stage": "ADDRESS",
-    "abandoned_at": 1788577385,
+    "abandoned_at": 1788586161,
     "reminder_count": 0,
     "opted_out_marketing": false,
     "last_reminded_at": null,
@@ -60,7 +60,7 @@
   },
   {
     "event_type": "checkout.abandoned",
-    "session_id": "sess_91040e81190b",
+    "session_id": "sess_e7016baa6928",
     "customer": {
       "name": "Rohan Verma",
       "email": "rohan.verma60@outlook.com",
@@ -79,7 +79,7 @@
       "item_count": 3
     },
     "funnel_stage": "PAYMENT",
-    "abandoned_at": 1788584585,
+    "abandoned_at": 1788593361,
     "reminder_count": 0,
     "opted_out_marketing": false,
     "last_reminded_at": null,
@@ -87,7 +87,7 @@
   },
   {
     "event_type": "checkout.abandoned",
-    "session_id": "sess_1214727395b0",
+    "session_id": "sess_aa6659afa353",
     "customer": {
       "name": "Sneha Iyer",
       "email": "sneha.iyer7@gmail.com",
@@ -106,7 +106,7 @@
       "item_count": 1
     },
     "funnel_stage": "OTP",
-    "abandoned_at": 1788166985,
+    "abandoned_at": 1788175761,
     "reminder_count": 0,
     "opted_out_marketing": false,
     "last_reminded_at": null,
@@ -114,7 +114,7 @@
   },
   {
     "event_type": "checkout.abandoned",
-    "session_id": "sess_7bcdbfc8aee9",
+    "session_id": "sess_0e0b0eac0d2a",
     "customer": {
       "name": "Karan Patel",
       "email": "karan.patel62@outlook.com",
@@ -133,15 +133,15 @@
       "item_count": 2
     },
     "funnel_stage": "REVIEW",
-    "abandoned_at": 1788584585,
+    "abandoned_at": 1788593361,
     "reminder_count": 1,
     "opted_out_marketing": true,
-    "last_reminded_at": 1788505385,
+    "last_reminded_at": 1788514161,
     "device": "mobile"
   },
   {
     "event_type": "checkout.abandoned",
-    "session_id": "sess_a0cdc7b880e1",
+    "session_id": "sess_9395729568fb",
     "customer": {
       "name": "Anjali Singh",
       "email": "anjali.singh50@yahoo.in",
@@ -160,15 +160,15 @@
       "item_count": 1
     },
     "funnel_stage": "CART",
-    "abandoned_at": 1788584585,
+    "abandoned_at": 1788593361,
     "reminder_count": 1,
     "opted_out_marketing": false,
-    "last_reminded_at": 1788591785,
+    "last_reminded_at": 1788600561,
     "device": "desktop"
   },
   {
     "event_type": "checkout.abandoned",
-    "session_id": "sess_57bd703bd403",
+    "session_id": "sess_6e5c3565ed8c",
     "customer": {
       "name": "Vikram Nair",
       "email": "vikram.nair85@icloud.com",
@@ -187,15 +187,15 @@
       "item_count": 1
     },
     "funnel_stage": "ADDRESS",
-    "abandoned_at": 1788426185,
+    "abandoned_at": 1788434961,
     "reminder_count": 2,
     "opted_out_marketing": false,
-    "last_reminded_at": 1788418985,
+    "last_reminded_at": 1788427761,
     "device": "mobile"
   },
   {
     "event_type": "checkout.abandoned",
-    "session_id": "sess_cf961a2befef",
+    "session_id": "sess_4fc47d23a683",
     "customer": {
       "name": "Deepa Krishnan",
       "email": "deepa.krishnan8@gmail.com",
@@ -214,7 +214,7 @@
       "item_count": 1
     },
     "funnel_stage": "PAYMENT",
-    "abandoned_at": 1788555785,
+    "abandoned_at": 1788564561,
     "reminder_count": 0,
     "opted_out_marketing": false,
     "last_reminded_at": null,
@@ -222,7 +222,7 @@
   },
   {
     "event_type": "checkout.abandoned",
-    "session_id": "sess_f4359fe93e30",
+    "session_id": "sess_d2d1eeabcb88",
     "customer": {
       "name": "Aakash Gupta",
       "email": "aakash.gupta65@outlook.com",
@@ -241,15 +241,15 @@
       "item_count": 1
     },
     "funnel_stage": "OTP",
-    "abandoned_at": 1788595385,
+    "abandoned_at": 1788604161,
     "reminder_count": 1,
     "opted_out_marketing": false,
-    "last_reminded_at": 1788505385,
+    "last_reminded_at": 1788514161,
     "device": "mobile"
   },
   {
     "event_type": "checkout.abandoned",
-    "session_id": "sess_04b6677cc0a7",
+    "session_id": "sess_9e9f2bf9b541",
     "customer": {
       "name": "Ritu Joshi",
       "email": "ritu.joshi77@gmail.com",
@@ -268,7 +268,7 @@
       "item_count": 1
     },
     "funnel_stage": "REVIEW",
-    "abandoned_at": 1788584585,
+    "abandoned_at": 1788593361,
     "reminder_count": 0,
     "opted_out_marketing": false,
     "last_reminded_at": null,
@@ -276,7 +276,7 @@
   },
   {
     "event_type": "checkout.abandoned",
-    "session_id": "sess_e65cb515d32b",
+    "session_id": "sess_54670658560e",
     "customer": {
       "name": "Manish Agarwal",
       "email": "manish.agarwal73@outlook.com",
@@ -295,7 +295,7 @@
       "item_count": 1
     },
     "funnel_stage": "CART",
-    "abandoned_at": 1788426185,
+    "abandoned_at": 1788434961,
     "reminder_count": 0,
     "opted_out_marketing": false,
     "last_reminded_at": null,
@@ -303,7 +303,7 @@
   },
   {
     "event_type": "checkout.abandoned",
-    "session_id": "sess_b88db54c1b34",
+    "session_id": "sess_1c7e4ce2e250",
     "customer": {
       "name": "Pooja Rao",
       "email": "pooja.rao54@yahoo.in",
@@ -322,7 +322,7 @@
       "item_count": 1
     },
     "funnel_stage": "ADDRESS",
-    "abandoned_at": 1787994185,
+    "abandoned_at": 1788002961,
     "reminder_count": 0,
     "opted_out_marketing": false,
     "last_reminded_at": null,
@@ -330,7 +330,7 @@
   },
   {
     "event_type": "checkout.abandoned",
-    "session_id": "sess_51dd07a31917",
+    "session_id": "sess_123676b25842",
     "customer": {
       "name": "Suresh Kumar",
       "email": "suresh.kumar34@icloud.com",
@@ -349,7 +349,7 @@
       "item_count": 5
     },
     "funnel_stage": "PAYMENT",
-    "abandoned_at": 1788512585,
+    "abandoned_at": 1788521361,
     "reminder_count": 0,
     "opted_out_marketing": false,
     "last_reminded_at": null,
@@ -357,7 +357,7 @@
   },
   {
     "event_type": "checkout.abandoned",
-    "session_id": "sess_e1f64d8f8bb5",
+    "session_id": "sess_60d699be8189",
     "customer": {
       "name": "Neha Bhat",
       "email": "neha.bhat97@gmail.com",
@@ -376,7 +376,7 @@
       "item_count": 1
     },
     "funnel_stage": "OTP",
-    "abandoned_at": 1788339785,
+    "abandoned_at": 1788348561,
     "reminder_count": 0,
     "opted_out_marketing": false,
     "last_reminded_at": null,
@@ -384,7 +384,7 @@
   },
   {
     "event_type": "checkout.abandoned",
-    "session_id": "sess_872adc963f2e",
+    "session_id": "sess_ba6c4739812c",
     "customer": {
       "name": "Rahul Tiwari",
       "email": "rahul.tiwari10@outlook.com",
@@ -403,10 +403,10 @@
       "item_count": 2
     },
     "funnel_stage": "REVIEW",
-    "abandoned_at": 1787994185,
+    "abandoned_at": 1788002961,
     "reminder_count": 1,
     "opted_out_marketing": false,
-    "last_reminded_at": 1788591785,
+    "last_reminded_at": 1788600561,
     "device": "desktop"
   }
 ]
